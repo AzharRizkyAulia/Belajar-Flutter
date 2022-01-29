@@ -1,7 +1,7 @@
 import 'package:example/listview/list_builder.dart';
 import 'package:flutter/material.dart';
-import 'package:example/latihan3.dart';
-import 'package:example/listview/list_basic.dart';
+import 'package:example/latihan4.dart';
+import 'package:example/latihan5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,12 +14,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Flutter Pertama",
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text("Belajar Flutter"),
           backgroundColor: Colors.pinkAccent,
         ),
-        body: BasicListView(),
+        body: Latihan5(),
       ),
     );
   }

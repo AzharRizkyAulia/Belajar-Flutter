@@ -17,21 +17,16 @@ class BuilderListView extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("belajarFlutter.com"),
-      ),
-      body: ListView.builder(
-        itemBuilder: (context, index) {
-          return Card(
-            child: Padding(
-              padding: const EdgeInsets.all(15.0),
-              child: Text(bulan[index], style: TextStyle(fontSize: 30)),
-            ),
-          );
-        },
-        itemCount: bulan.length,
-      ),
+    return ListView.builder(
+      itemBuilder: (context, index) {
+        return Card(
+          child: Padding(
+            padding: const EdgeInsets.all(15.0),
+            child: Text(bulan[index], style: TextStyle(fontSize: 30)),
+          ),
+        );
+      },
+      itemCount: bulan.length,
     );
   }
 }

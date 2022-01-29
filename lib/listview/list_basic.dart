@@ -1,23 +1,71 @@
 import 'package:flutter/material.dart';
 
-class BasicListView extends StatelessWidget {
+class ListBasic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text("belajarFlutter.com"),
+    return ListView(
+      children: [
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Cupcake"),
         ),
-        body: ListView(children: <Widget>[
-          Container(
-            padding: EdgeInsets.all(15),
-            child: Text('Flutter Widget: Penggunaan ListView Class',
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
-          ),
-          Container(
-            padding: EdgeInsets.all(15),
-            child: Text('''Lorem Ipsum adalah contoh teks atau ...''',
-                style: TextStyle(fontSize: 16)),
-          ),
-        ]));
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Donus"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Eclair"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Froyo"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Gingerbread"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Honeycomb"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Ice Cream Sandwich"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Jelly Bean"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Jelly Bean"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Kitkat"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Lollipop"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Marshmallow"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Nougat"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Oreo"),
+        ),
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text("Android Pie"),
+        ),
+      ],
+    );
   }
 }
