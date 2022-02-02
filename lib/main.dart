@@ -1,4 +1,8 @@
 import 'package:example/listview/list_builder.dart';
+import 'package:example/gridview/gridview.dart';
+import 'package:example/gridview/gridview_builder.dart';
+import 'package:example/gridview/gridview_custom.dart';
+import 'package:example/gridview/contoh1.dart';
 import 'package:flutter/material.dart';
 import 'package:example/latihan4.dart';
 import 'package:example/latihan5.dart';
@@ -20,7 +24,7 @@ class MyApp extends StatelessWidget {
           title: Text("Belajar Flutter"),
           backgroundColor: Colors.pinkAccent,
         ),
-        body: Latihan5(),
+        body: ContohGridView(),
       ),
     );
   }
