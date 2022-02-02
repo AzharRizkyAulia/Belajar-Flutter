@@ -36,12 +36,12 @@ class ContohGridView extends StatelessWidget {
           SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 1),
       children: <Widget>[
         GridView.count(
-          crossAxisCount: 3,
+          crossAxisCount: 4,
           scrollDirection: Axis.horizontal,
           padding: EdgeInsets.all(20),
           children: List.generate(alphabet.length, (index) {
             return Container(
-              height: 100,
+              height: 30,
               child: Card(
                 child: Center(
                     child: Text(alphabet[index],
