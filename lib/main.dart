@@ -4,8 +4,6 @@ import 'package:example/gridview/gridview_builder.dart';
 import 'package:example/gridview/gridview_custom.dart';
 import 'package:example/gridview/contoh1.dart';
 import 'package:flutter/material.dart';
-import 'package:example/latihan4.dart';
-import 'package:example/latihan5.dart';
 
 void main() {
   runApp(const MyApp());
